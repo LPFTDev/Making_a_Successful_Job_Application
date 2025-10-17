@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <!-- Created using Storyline 360 x64 - http://www.articulate.com  -->
-  <!-- version: 3.101.34925.0 -->
+  <!-- version: 3.104.35448.0 -->
   <title>Making A Successful Job Application</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
@@ -28,16 +28,16 @@
       captureRc: false,
       browserSize: 'optimal',
       bgColor: '#282828',
-      features: 'DropInBase,JsApiBasics,MultipleQuizTracking,NativePrompts,PlayerSizeOption,TextEntryCharacterLimit',
+      features: 'DropInBase,MultipleQuizTracking,PlayerSizeOption',
       themeName: 'unified',
       preloaderColor: '#FFFFFF',
       suppressAnalytics: false,
       productChannel: 'stable',
       publishSource: 'storyline',
-      aid: 'aid|5c31ee42-3438-4a66-8b55-92c84a5d4831',
-      cid: 'ca9e10d6-4518-4269-9bdd-e62c75557cbe',
-      playerVersion: '3.101.34925.0',
-      publishTimestamp: '2025-10-16T12:56:23.0214193Z',
+      aid: 'aid|dd0e4905-c8ec-4213-bd32-d525fbeebc60',
+      cid: '30f307cd-155c-436f-ab94-6655ab8cea58',
+      playerVersion: '3.104.35448.0',
+      publishTimestamp: '2025-10-16T16:06:11.3372532Z',
       maxIosVideoElements: 10,
       connectionSettings: { message: 'You%20are%20offline.%20Trying%20to%20reconnect...', useDarkTheme: false, mode: 'disabled' },
       hasFeature: function(feature) {
@@ -89,6 +89,7 @@
   </script>
 
   
+  <script src='lms/scormdriver.js' type=text/javascript></script>
   <script>window.THREE = { };</script>
   
 </head>
@@ -434,7 +435,7 @@
     function disableKeys() {
       if (DS.views && DS.views.nsStack && DS.views.nsStack.length === 1) {
         DS.views.nsStack[0].tabReachable = false
-        DS.views.nsStack[0].updateTabIndex(true, true);
+        DS.views.nsStack[0].updateTabIndex(true);
       }
 
       accStyle.innerHTML = '.acc-shadow-dom { display: none; }';
